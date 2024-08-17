@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Don't ignore directories so Git can track .md, .cpp, .txt files inside directories
+!*/
+
+# Track markdown, C++ source, and text files
+!*.md
+!*.cpp
+!*.txt
+
+# Optionally, ignore common build artifacts
+/build/
+/*.o
+/*.exe
+/*.out
+/*.log
